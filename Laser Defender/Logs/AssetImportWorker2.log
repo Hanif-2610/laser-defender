@@ -1,0 +1,298 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16109 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programs\Unity\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Works/Unity/laser-defender/Laser Defender
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51604
+Successfully changed project path to: D:/Works/Unity/laser-defender/Laser Defender
+D:/Works/Unity/laser-defender/Laser Defender
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10536] Host "[IP] 192.168.20.19 [Port] 0 [Flags] 2 [Guid] 3715818994 [EditorId] 3715818994 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-73QGK95L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10536] Host "[IP] 192.168.20.19 [Port] 0 [Flags] 2 [Guid] 3715818994 [EditorId] 3715818994 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-73QGK95L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 8.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path D:/Programs/Unity/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Works/Unity/laser-defender/Laser Defender/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3770
+Initialize mono
+Mono path[0] = 'D:/Programs/Unity/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programs/Unity/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programs/Unity/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programs/Unity/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004688 seconds.
+- Loaded All Assemblies, in  0.263 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.228 seconds
+Domain Reload Profiling: 491ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (86ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (228ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.588 seconds
+Refreshing native plugins compatible for Editor in 3.56 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.569 seconds
+Domain Reload Profiling: 1154ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (148ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (569ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (329ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4564 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (63.5 KB). Loaded Objects now: 5026.
+Memory consumption went from 156.6 MB to 156.6 MB.
+Total: 3.549900 ms (FindLiveObjects: 0.278000 ms CreateObjectMapping: 0.135800 ms MarkObjects: 2.976200 ms  DeleteObjects: 0.158900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30433.875351 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen13.png
+  artifactKey: Guid(f541d528d6bb4604da25a4ce8fb013d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen13.png using Guid(f541d528d6bb4604da25a4ce8fb013d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93580703e2338102b4255d9d2951cbff') in 0.059364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed04.png
+  artifactKey: Guid(950fc543857d10d44b37668eed45996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed04.png using Guid(950fc543857d10d44b37668eed45996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c744d2a82c751b7c71bf86057bf94e3d') in 0.019665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.111185 seconds.
+  path: Assets/Asset Packs/spaceshooter/Spritesheet/sheet.png
+  artifactKey: Guid(3d28ec31f6c995c4aaf01bcec35c6ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/Spritesheet/sheet.png using Guid(3d28ec31f6c995c4aaf01bcec35c6ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b177fb8f5fed48b8eee6bab692026c23') in 0.021708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 95.416220 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserBlue07.png
+  artifactKey: Guid(1acaa4cc935e45847b41a0b0e8435a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserBlue07.png using Guid(1acaa4cc935e45847b41a0b0e8435a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b17e296855a4e78d32c05ffc99681f') in 0.061986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 730.477664 seconds.
+  path: Assets/Prefabs/Projectile.prefab
+  artifactKey: Guid(97bd23b9eb2cd4242909ac616c5138ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile.prefab using Guid(97bd23b9eb2cd4242909ac616c5138ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e75c8ee65f1ee5c4c780567583fd985') in 0.044276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 31.910031 seconds.
+  path: Assets/Prefabs/Projectile_Player.prefab
+  artifactKey: Guid(97bd23b9eb2cd4242909ac616c5138ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile_Player.prefab using Guid(97bd23b9eb2cd4242909ac616c5138ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac9915150592ae2a8d355b122adcb9') in 0.008023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 30.758907 seconds.
+  path: Assets/Prefabs/Projectile_Player 1.prefab
+  artifactKey: Guid(4944a102fe44319419a7b5ea43c691d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile_Player 1.prefab using Guid(4944a102fe44319419a7b5ea43c691d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b59cc8dab0a46b5975b9ee6871aafc0') in 0.008469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 8.173527 seconds.
+  path: Assets/Prefabs/Projectile_Enemy.prefab
+  artifactKey: Guid(4944a102fe44319419a7b5ea43c691d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Projectile_Enemy.prefab using Guid(4944a102fe44319419a7b5ea43c691d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46ca73f4d6829a1e9a8440fef589cb9') in 0.007795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 26.250417 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed06.png
+  artifactKey: Guid(e1af6d51127af214daf55ae21f31c1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed06.png using Guid(e1af6d51127af214daf55ae21f31c1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359ae6ea3f1a54d2997b560424bb5f8c') in 0.018576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed09.png
+  artifactKey: Guid(f92e9bef59c768047bafd6414c7dfad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed09.png using Guid(f92e9bef59c768047bafd6414c7dfad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72459aab30dfd2edfd0ab18aef33f8a1') in 0.022377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed12.png
+  artifactKey: Guid(0868f1498b7664e48a56c12e9c762c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed12.png using Guid(0868f1498b7664e48a56c12e9c762c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187300e5327e61947c101a3ab4f0ad0f') in 0.018077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed13.png
+  artifactKey: Guid(dd9a5a2ce5aaa8d47b272461acde4b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed13.png using Guid(dd9a5a2ce5aaa8d47b272461acde4b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c1da07760ccd0b789cebcbc1daea37') in 0.018982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed14.png
+  artifactKey: Guid(3dae2355c12464440a9912427ec5d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed14.png using Guid(3dae2355c12464440a9912427ec5d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed9a86ffa391a1e616de508419a98fb') in 0.020351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.297051 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed15.png
+  artifactKey: Guid(a7fbe687e6c93eb49a269c0604132734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed15.png using Guid(a7fbe687e6c93eb49a269c0604132734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1099374a62407585b275f4d03786c05c') in 0.020513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
