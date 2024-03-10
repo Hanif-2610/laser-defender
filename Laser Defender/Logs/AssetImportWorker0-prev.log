@@ -15,7 +15,7 @@ D:/Works/Unity/laser-defender/Laser Defender
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55658
+61169
 Successfully changed project path to: D:/Works/Unity/laser-defender/Laser Defender
 D:/Works/Unity/laser-defender/Laser Defender
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Works/Unity/laser-defender/Laser Defender
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8828] Host "[IP] 192.168.205.165 [Port] 0 [Flags] 2 [Guid] 578501497 [EditorId] 578501497 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-73QGK95L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20836] Host "[IP] 192.168.20.19 [Port] 0 [Flags] 2 [Guid] 3223350764 [EditorId] 3223350764 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-73QGK95L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8828] Host "[IP] 192.168.205.165 [Port] 0 [Flags] 2 [Guid] 578501497 [EditorId] 578501497 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-73QGK95L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20836] Host "[IP] 192.168.20.19 [Port] 0 [Flags] 2 [Guid] 3223350764 [EditorId] 3223350764 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-73QGK95L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 8.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path D:/Programs/Unity/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'D:/Programs/Unity/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Programs/Unity/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Programs/Unity/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Programs/Unity/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005030 seconds.
-- Loaded All Assemblies, in  0.284 seconds
+Registered in 0.004271 seconds.
+- Loaded All Assemblies, in  0.283 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.234 seconds
-Domain Reload Profiling: 517ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.226 seconds
+Domain Reload Profiling: 509ms
+	BeginReloadAssembly (90ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (109ms)
-		LoadAssemblies (91ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (89ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (107ms)
-			TypeCache.Refresh (106ms)
-				TypeCache.ScanAssembly (95ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (97ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (235ms)
+	FinalizeReload (227ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (186ms)
+		SetupLoadedEditorAssemblies (178ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (132ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 517ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.690 seconds
-Refreshing native plugins compatible for Editor in 4.10 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.632 seconds
+Refreshing native plugins compatible for Editor in 3.78 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.685 seconds
-Domain Reload Profiling: 1372ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 1252ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (476ms)
-		LoadAssemblies (340ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (291ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (214ms)
-			TypeCache.Refresh (185ms)
-				TypeCache.ScanAssembly (167ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (686ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (170ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (622ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
+		SetupLoadedEditorAssemblies (452ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (385ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.54 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4557 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (63.2 KB). Loaded Objects now: 5020.
+Unloading 4559 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (63.1 KB). Loaded Objects now: 5021.
 Memory consumption went from 156.5 MB to 156.4 MB.
-Total: 3.347400 ms (FindLiveObjects: 0.402300 ms CreateObjectMapping: 0.162700 ms MarkObjects: 2.611200 ms  DeleteObjects: 0.170200 ms)
+Total: 3.499200 ms (FindLiveObjects: 0.317800 ms CreateObjectMapping: 0.195400 ms MarkObjects: 2.858400 ms  DeleteObjects: 0.126500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,1176 +181,467 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 376588.794533 seconds.
-  path: Assets/InputActions.inputactions
-  artifactKey: Guid(8545e2ac4728ae845875691c013f50d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/InputActions.inputactions using Guid(8545e2ac4728ae845875691c013f50d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1710b80da8111c02fa659074bf4c86c6') in 0.128367 seconds
+  Time since last request: 492545.502527 seconds.
+  path: Assets/Waves and Paths/Path 0.prefab
+  artifactKey: Guid(1ecc1606007f38b4ba016906c01605e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves and Paths/Path 0.prefab using Guid(1ecc1606007f38b4ba016906c01605e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a068c84b035b9ada3dd143b28d1bc735') in 0.026471 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip2_damage2.png
-  artifactKey: Guid(fe43dd037de1a2145a92964a3d742771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip2_damage2.png using Guid(fe43dd037de1a2145a92964a3d742771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b9269d0e89d009371a505f727c1d1b2a') in 0.070184 seconds
+  Time since last request: 36.771069 seconds.
+  path: Assets/Scripts/WaveConfigSO.cs
+  artifactKey: Guid(498bfc5208bb9104081b6333f48b9d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WaveConfigSO.cs using Guid(498bfc5208bb9104081b6333f48b9d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff481b82a61de9ad6377ab754abf09d') in 0.000544 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.515 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.078 seconds
+Domain Reload Profiling: 1588ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (331ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1078ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (495ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (36.5 KB). Loaded Objects now: 5028.
+Memory consumption went from 155.1 MB to 155.1 MB.
+Total: 3.620200 ms (FindLiveObjects: 0.377200 ms CreateObjectMapping: 0.335800 ms MarkObjects: 2.840200 ms  DeleteObjects: 0.063700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.573 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.054 seconds
+Domain Reload Profiling: 1621ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (354ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1054ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (330ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (36.4 KB). Loaded Objects now: 5032.
+Memory consumption went from 157.3 MB to 157.3 MB.
+Total: 4.076700 ms (FindLiveObjects: 0.253000 ms CreateObjectMapping: 0.129200 ms MarkObjects: 3.605800 ms  DeleteObjects: 0.086900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Asset Packs/spaceshooter/Backgrounds/blue.png
-  artifactKey: Guid(9c4192ae056238241a9900a81ae7411a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/Backgrounds/blue.png using Guid(9c4192ae056238241a9900a81ae7411a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5804b39b4738a17b19ae3ac9a6cf6b4e') in 0.033878 seconds
+  Time since last request: 737.180192 seconds.
+  path: Assets/Scripts/Pathfinder.cs
+  artifactKey: Guid(809ad760b8959e449808d19c25fabe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pathfinder.cs using Guid(809ad760b8959e449808d19c25fabe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33a6ac995b0c0146eaaea22a61e0fdb') in 0.001878 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.503 seconds
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.926 seconds
+Domain Reload Profiling: 1426ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (926ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (318ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (37.3 KB). Loaded Objects now: 5037.
+Memory consumption went from 159.0 MB to 159.0 MB.
+Total: 3.592700 ms (FindLiveObjects: 0.372600 ms CreateObjectMapping: 0.189100 ms MarkObjects: 2.938700 ms  DeleteObjects: 0.091600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyBlue5.png
-  artifactKey: Guid(90e056c42e0118947b1ce7be10f18b71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyBlue5.png using Guid(90e056c42e0118947b1ce7be10f18b71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a23207405ea862b07e42c63b7a710eb9') in 0.042220 seconds
+  Time since last request: 6.224712 seconds.
+  path: Assets/Scripts/Pathfinder.cs
+  artifactKey: Guid(809ad760b8959e449808d19c25fabe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Pathfinder.cs using Guid(809ad760b8959e449808d19c25fabe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403d5fdc8c939ac441c53692b820b6ce') in 0.002906 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip3_damage2.png
-  artifactKey: Guid(1e9667325e113b74395264122c733df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip3_damage2.png using Guid(1e9667325e113b74395264122c733df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0f6dc9c53b14d9b453b2071ddd064473') in 0.040199 seconds
+  Time since last request: 5.668827 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(6588239d5d06cb349ba75de23f24a0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(6588239d5d06cb349ba75de23f24a0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3588f15d272cb34608c4897c3ebc336') in 0.132092 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Effects/shield3.png
-  artifactKey: Guid(e20eb768882e0be4bb674abd4b33fe47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/shield3.png using Guid(e20eb768882e0be4bb674abd4b33fe47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'bb561e99d084cddaf232384c060ba2ea') in 0.040597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/playerShip3_blue.png
-  artifactKey: Guid(bbea5c86f33e40943815f64e4c040bbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/playerShip3_blue.png using Guid(bbea5c86f33e40943815f64e4c040bbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'eaa790a48f1235421ab07c18a6dfa508') in 0.029926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Packs/spaceshooter/Backgrounds/black.png
-  artifactKey: Guid(2b63dfc60c774db4e9a53a3264961cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/Backgrounds/black.png using Guid(2b63dfc60c774db4e9a53a3264961cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1a6f272cd82d10b864b31f141037019f') in 0.036820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyGreen5.png
-  artifactKey: Guid(552cf2bcb09f8eb42a245cd201c40786) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyGreen5.png using Guid(552cf2bcb09f8eb42a245cd201c40786) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9fc5a45bd7e392c437a49ef403e5373d') in 0.039268 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip1_damage2.png
-  artifactKey: Guid(8c35a7b37d4ff1d42adb4358c68b7bac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip1_damage2.png using Guid(8c35a7b37d4ff1d42adb4358c68b7bac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fc51d85264bab479a88e657eacbf7e14') in 0.040176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Packs/spaceshooter/preview.png
-  artifactKey: Guid(4f83db275fb26364ebd18f0931c31070) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/preview.png using Guid(4f83db275fb26364ebd18f0931c31070) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '690fcf982e497cd6bb67ffd770ea1c61') in 0.036637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen07.png
-  artifactKey: Guid(ff4ecc7250874654b8007ec2114636a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen07.png using Guid(ff4ecc7250874654b8007ec2114636a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4942c065adba4eba069d4d12b2f57502') in 0.040341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserBlue13.png
-  artifactKey: Guid(bcca218bbadf7d0459585161eeb66edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserBlue13.png using Guid(bcca218bbadf7d0459585161eeb66edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a96d654f38592edbaafb20f7dddc30dc') in 0.038707 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Asset Packs/spaceshooter/Spritesheet/sheet.xml
-  artifactKey: Guid(32cf6f1c7bccd9046a5773fe996a9662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/Spritesheet/sheet.xml using Guid(32cf6f1c7bccd9046a5773fe996a9662) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b2d49a36d5826addf0bd574ae493eaae') in 0.022662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyGreen4.png
-  artifactKey: Guid(ce6ae741f0e820748912d0d45ef8e7e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyGreen4.png using Guid(ce6ae741f0e820748912d0d45ef8e7e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a7ca7282b966119061ccde755185f7ec') in 0.045331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyRed5.png
-  artifactKey: Guid(bb1194f972f37424c9fb2a11acc90471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyRed5.png using Guid(bb1194f972f37424c9fb2a11acc90471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04caa529f119aaa86849689a660ba5b3') in 0.033035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset Packs/spaceshooter/Bonus/sfx_lose.ogg
-  artifactKey: Guid(230e9eaa3181153418e0e5ffadf07cc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/Bonus/sfx_lose.ogg using Guid(230e9eaa3181153418e0e5ffadf07cc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '42993c8ca6adadfe8c1bf4f3a602659f') in 0.049943 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/playerShip2_orange.png
-  artifactKey: Guid(233972c57b7deae408328f74de4726f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/playerShip2_orange.png using Guid(233972c57b7deae408328f74de4726f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7165afd2485640a4a7dadbc0bedc6f15') in 0.027865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip1_damage1.png
-  artifactKey: Guid(67150abe9a277b9499acb0b5039ac9a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip1_damage1.png using Guid(67150abe9a277b9499acb0b5039ac9a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '32976af9d6736d0185a2d986867bfae7') in 0.040086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip2_damage1.png
-  artifactKey: Guid(5f5abce05c4ae4449b9176baee73d0e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip2_damage1.png using Guid(5f5abce05c4ae4449b9176baee73d0e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1b2d4f7f6bfa37b135cb0d3ea208cfec') in 0.036098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen04.png
-  artifactKey: Guid(60ad58e231a65ad4fb3bc77b0cee3dad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen04.png using Guid(60ad58e231a65ad4fb3bc77b0cee3dad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a9895b4cf7d700b349cbb485270a2620') in 0.034664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/playerShip2_green.png
-  artifactKey: Guid(cfcb7d9cb6f44484cad72d92bc47ffec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/playerShip2_green.png using Guid(cfcb7d9cb6f44484cad72d92bc47ffec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '270bdbbf03dd03e2295c33f0a53a794a') in 0.034144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire09.png
-  artifactKey: Guid(86acbdd3e9fde194dbee5ecf455bbce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire09.png using Guid(86acbdd3e9fde194dbee5ecf455bbce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c312f616bfd04bb65677b8795a1f5206') in 0.040164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
+  Time since last request: 10.926951 seconds.
   path: Assets/Prefabs/Enemy 0.prefab
-  artifactKey: Guid(77ed2971719fabb4f888fb5db9e0ca8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Prefabs/Enemy 0.prefab using Guid(77ed2971719fabb4f888fb5db9e0ca8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8b6f2a95e17ae4bf34c4a0b913889565') in 0.024562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/playerShip3_orange.png
-  artifactKey: Guid(0a8b2289ab7d86049ab2a0cc0a66a928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/playerShip3_orange.png using Guid(0a8b2289ab7d86049ab2a0cc0a66a928) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f3988bb0d3ef5f3f393dd9a5a0ac9463') in 0.026831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed03.png
-  artifactKey: Guid(50fe3ff9b0a89824992ef5f5862bd277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed03.png using Guid(50fe3ff9b0a89824992ef5f5862bd277) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e08e560abad78e17229148d1d693e584') in 0.040322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed11.png
-  artifactKey: Guid(5f773ad1c571c434f917e036ac23ae66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed11.png using Guid(5f773ad1c571c434f917e036ac23ae66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0d4eef08df3960c0684ea763cc4db18a') in 0.038096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen13.png
-  artifactKey: Guid(f541d528d6bb4604da25a4ce8fb013d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen13.png using Guid(f541d528d6bb4604da25a4ce8fb013d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0a0df06356d9e0f75dcd3e5d74dd1064') in 0.036687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen14.png
-  artifactKey: Guid(451311950a681cb4698f1ad665b2929e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen14.png using Guid(451311950a681cb4698f1ad665b2929e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6012964bd2a54c706361899349e0d50d') in 0.036606 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f723d918c0f5a5e8ff7294d87818c410') in 0.014612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/ufoGreen.png
-  artifactKey: Guid(aabe53107ed0c2444a83aa8bac2d2ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/ufoGreen.png using Guid(aabe53107ed0c2444a83aa8bac2d2ae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8acd84449b43d855beffe1c96f9c1ae7') in 0.029625 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyBlue3.png
-  artifactKey: Guid(3c81a8ad136a0ca4bb840e3f6224becf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyBlue3.png using Guid(3c81a8ad136a0ca4bb840e3f6224becf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '02f39b4e2f15f4b05dd607b24fcca4f3') in 0.034560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/playerShip3_green.png
-  artifactKey: Guid(8315d49f326e9894da4064e005b52e8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/playerShip3_green.png using Guid(8315d49f326e9894da4064e005b52e8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e9c4f3827fa214e2a6e55076c1306afe') in 0.029987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen06.png
-  artifactKey: Guid(34dc5188a871d6644b8029d324a022f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen06.png using Guid(34dc5188a871d6644b8029d324a022f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fe76c4f53a2360b7986798bd4dababad') in 0.036681 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/ufoBlue.png
-  artifactKey: Guid(2df0c43add9ef284a8e27fa5cef3cce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/ufoBlue.png using Guid(2df0c43add9ef284a8e27fa5cef3cce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '950a458e64fe0e794f7528681727db9a') in 0.028788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.007676 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed07.png
-  artifactKey: Guid(65f4adf11065c8f43bdc0d68f1630499) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed07.png using Guid(65f4adf11065c8f43bdc0d68f1630499) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '669278e57f3221d8d5ec947322c9d2e8') in 0.037429 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed02.png
-  artifactKey: Guid(f7f61cfcfd7a52a4fa6b275f6e837fc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed02.png using Guid(f7f61cfcfd7a52a4fa6b275f6e837fc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e16d0b1bf550191a9da5dc4be05c6d2b') in 0.033873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Effects/star3.png
-  artifactKey: Guid(d223e3e9d067e43408c4ed54604e0a1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/star3.png using Guid(d223e3e9d067e43408c4ed54604e0a1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '25e1f597f36ed3c7bc4ab24cb965a53d') in 0.031058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserBlue14.png
-  artifactKey: Guid(833f413a561d2c14bbcccf5b592a395f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserBlue14.png using Guid(833f413a561d2c14bbcccf5b592a395f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5f741a387faa5834bc50cb9cc13ef110') in 0.036035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen11.png
-  artifactKey: Guid(efa4b35af437cc74d89a80de44908bc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen11.png using Guid(efa4b35af437cc74d89a80de44908bc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7848bab7b5f30ad6c79b83af763246f5') in 0.038469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed10.png
-  artifactKey: Guid(cda01aecd45e1784e973fb38283e58f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed10.png using Guid(cda01aecd45e1784e973fb38283e58f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c266a2dceed5614ab18d5617a3f4c5ee') in 0.035015 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire01.png
-  artifactKey: Guid(513705c1f36dea24ea8d92da3693358b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire01.png using Guid(513705c1f36dea24ea8d92da3693358b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '080364d57ebf7927e39c9477d0dc8dc4') in 0.038638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire13.png
-  artifactKey: Guid(534800911e4aa42489a738780aa39bdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire13.png using Guid(534800911e4aa42489a738780aa39bdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd653025435a79d3fec61bcd36200df01') in 0.037768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/beamLong2.png
-  artifactKey: Guid(775e2c1540afef3428b79487a5ff8101) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/beamLong2.png using Guid(775e2c1540afef3428b79487a5ff8101) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ec605bb757590149fbf0f9261a7d1824') in 0.037323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_big1.png
-  artifactKey: Guid(dd57969c43e138a469fd60686a7f4714) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_big1.png using Guid(dd57969c43e138a469fd60686a7f4714) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c0048682a0532ef29907ab43b54de0e6') in 0.037012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_tiny1.png
-  artifactKey: Guid(d17ae7c2f204798438095655deda24b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_tiny1.png using Guid(d17ae7c2f204798438095655deda24b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3f8d21ab6e52d340ccc3caa3ca4dfbb7') in 0.035801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitBlue_2.png
-  artifactKey: Guid(76fe03b8742d0694b943e6670d6754d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitBlue_2.png using Guid(76fe03b8742d0694b943e6670d6754d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1389a99a5d0b494e9048f23f87fb9853') in 0.033521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorBrown_big2.png
-  artifactKey: Guid(2525df9a5130378459eae69b2bdec6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorBrown_big2.png using Guid(2525df9a5130378459eae69b2bdec6c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '80cd12749e6af456180f9913b43e87c0') in 0.037446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitBlue_5.png
-  artifactKey: Guid(ecb2cfeb5c7439c47817bf5e60f49462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitBlue_5.png using Guid(ecb2cfeb5c7439c47817bf5e60f49462) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5ef4b22a87d6b083bc76b2094086ae74') in 0.033431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/beam6.png
-  artifactKey: Guid(1d375692411199148967846ae9020ce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/beam6.png using Guid(1d375692411199148967846ae9020ce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '70bc250e3b7b6294f07279e2ee1db3ba') in 0.032221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorBrown_big4.png
-  artifactKey: Guid(8bf42968dfd8eea4ea9b1178aa2bb8f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorBrown_big4.png using Guid(8bf42968dfd8eea4ea9b1178aa2bb8f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2473778eb23f072cada9259a3a5efe0f') in 0.050033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/beamLong1.png
-  artifactKey: Guid(f2a043df12ca0084aba9b04140b9908d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/beamLong1.png using Guid(f2a043df12ca0084aba9b04140b9908d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f94e7ae7b2f8aae9de127f77e641cc86') in 0.035899 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_tiny2.png
-  artifactKey: Guid(2b42598b72ac75c49b3d5a24014b8c13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_tiny2.png using Guid(2b42598b72ac75c49b3d5a24014b8c13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd26c6e640faea0667fb2e92ddaaf4223') in 0.029806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitBlue_3.png
-  artifactKey: Guid(09a11ab7e4b3e16459127dd24c36f48b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitBlue_3.png using Guid(09a11ab7e4b3e16459127dd24c36f48b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '58c7e1e4e013f08fdfa39fd15974d49c') in 0.034590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_med1.png
-  artifactKey: Guid(564570bf790a9d648b6e6af9f4251061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_med1.png using Guid(564570bf790a9d648b6e6af9f4251061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '537b481b3cafdecec2aa206c38c64128') in 0.034792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire05.png
-  artifactKey: Guid(d68424d71ac641344a05222716172b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire05.png using Guid(d68424d71ac641344a05222716172b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd3dbd1f76d418a74e5401c653771a01b') in 0.032093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitYellow_5.png
-  artifactKey: Guid(535a21af3b3bc5b429f4fe357f29f887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitYellow_5.png using Guid(535a21af3b3bc5b429f4fe357f29f887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ea8dabf984112c8ac9d7745e6a85bf3d') in 0.033182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitYellow_1.png
-  artifactKey: Guid(dbb2541a2365a0e44b8bf669af1d519d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitYellow_1.png using Guid(dbb2541a2365a0e44b8bf669af1d519d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '12aaf92ade2607871f09a9d412b6a221') in 0.035250 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitYellow_7.png
-  artifactKey: Guid(3bbefb69d25235f43aeaa12489aadc2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitYellow_7.png using Guid(3bbefb69d25235f43aeaa12489aadc2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '89e904b12952b2166b01f6b1e81cd2d8') in 0.040542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset Packs/spaceshooter/Bonus/kenvector_future.ttf
-  artifactKey: Guid(0176e5335a1051748b6c5fc034f474d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/Bonus/kenvector_future.ttf using Guid(0176e5335a1051748b6c5fc034f474d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4ac1d50eb9a6df562d941f34951a4bcf') in 0.037838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Effects/star1.png
-  artifactKey: Guid(bf81e9b55286057468f65efef1afc72f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/star1.png using Guid(bf81e9b55286057468f65efef1afc72f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f423231aef1be877679639b1ca2e23d0') in 0.033125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire16.png
-  artifactKey: Guid(b95b6ff02a746e3489d1560b280b1712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire16.png using Guid(b95b6ff02a746e3489d1560b280b1712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3c6d0a23ac9c8c37de5fcde602f84f44') in 0.031973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/spaceshooter/Vector/sheet.swf
-  artifactKey: Guid(a2e7c04f476f0a1499d8415531e01988) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/Vector/sheet.swf using Guid(a2e7c04f476f0a1499d8415531e01988) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0f944dd5cab21303643d9dd176e25ef8') in 0.013386 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyGreen1.png
-  artifactKey: Guid(8f9008a4923ee47498d31dd13bd5732e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyGreen1.png using Guid(8f9008a4923ee47498d31dd13bd5732e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ac09fabc14aabefe68e766169b1c7fd0') in 0.038932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/spaceshooter/sample.png
-  artifactKey: Guid(31bbfa5369c03704b8d9d97d252ecd66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/sample.png using Guid(31bbfa5369c03704b8d9d97d252ecd66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6f9ccce055ca9d5e28ace47bf5d995e3') in 0.040896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip3_damage3.png
-  artifactKey: Guid(bcd7aa4e061863a4382220a26afcb7c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Damage/playerShip3_damage3.png using Guid(bcd7aa4e061863a4382220a26afcb7c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4b0af4814b475ecf860ab7b8f36b378b') in 0.039246 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Asset Packs/spaceshooter/Bonus/sfx_twoTone.ogg
-  artifactKey: Guid(872b50208e6379e44aa7b2dd62b9db36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/Bonus/sfx_twoTone.ogg using Guid(872b50208e6379e44aa7b2dd62b9db36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5f26d68c7ec1e6df9bb70f0fd205a500') in 0.042925 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/playerShip1_red.png
-  artifactKey: Guid(23a2a329a8faf014897e0149340c69ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/playerShip1_red.png using Guid(23a2a329a8faf014897e0149340c69ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '334f65177d063af39e0d03727213e0d9') in 0.029515 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed05.png
-  artifactKey: Guid(1b667b4fbdd83004e8b742251f8e80fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserRed05.png using Guid(1b667b4fbdd83004e8b742251f8e80fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a4acd3daca8bebd42d87190c7e62d202') in 0.038120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitGreen_1.png
-  artifactKey: Guid(3eab83282ec821a42ae0b8ce0cb491a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitGreen_1.png using Guid(3eab83282ec821a42ae0b8ce0cb491a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3f31ca7f06a40ec4fdc70d9630ede72f') in 0.034968 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_small1.png
-  artifactKey: Guid(18d35b9e7fb885e4eb1939e6d9fb11de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_small1.png using Guid(18d35b9e7fb885e4eb1939e6d9fb11de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e2437525ccfa4db6de8a35e49234cb80') in 0.033931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingBlue_3.png
-  artifactKey: Guid(210f0bd0a049b534991b385e83ae17a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingBlue_3.png using Guid(210f0bd0a049b534991b385e83ae17a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7ef09b41cc27c0029f44eec88fde7ab9') in 0.033360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingGreen_0.png
-  artifactKey: Guid(de8353c27e60ef44d98c7e9d1ff41260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingGreen_0.png using Guid(de8353c27e60ef44d98c7e9d1ff41260) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6669eecdc709e1abc0c2d3a309a73356') in 0.033186 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/gun06.png
-  artifactKey: Guid(66915fa200e897d479b5a1fc84ed4422) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/gun06.png using Guid(66915fa200e897d479b5a1fc84ed4422) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8ba4396f1e752a3761aaebb24da5ffb5') in 0.030954 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/gun03.png
-  artifactKey: Guid(adaaef9a44dfce54ba44504a25b831e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/gun03.png using Guid(adaaef9a44dfce54ba44504a25b831e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6a48d1ee21e51fdffd2ee7764664b666') in 0.034260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingBlue_6.png
-  artifactKey: Guid(a692532ebe53d52409a9c1ea63ed6202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingBlue_6.png using Guid(a692532ebe53d52409a9c1ea63ed6202) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1193c5cb484710e80fa4ba84b52dc50a') in 0.036641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/gun04.png
-  artifactKey: Guid(9153c3f45d6cac34b800d19d0b1a3c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/gun04.png using Guid(9153c3f45d6cac34b800d19d0b1a3c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6c52e0ed213898fe041ffb614c327038') in 0.030797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserBlue05.png
-  artifactKey: Guid(048315780d5d23f489729ab69462e048) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserBlue05.png using Guid(048315780d5d23f489729ab69462e048) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '74dd4f0553ee4b013c0c76f8d656009d') in 0.035022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorBrown_tiny1.png
-  artifactKey: Guid(6ec132b7913a0a3459888cfb9d2217aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorBrown_tiny1.png using Guid(6ec132b7913a0a3459888cfb9d2217aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '03f0648d57273c0cf1d02739a4db4bc6') in 0.029698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/ufoRed.png
-  artifactKey: Guid(f564f292dadd8794cab9142edda9a7b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/ufoRed.png using Guid(f564f292dadd8794cab9142edda9a7b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0ae7cface05dbfab24612c5b41fb677e') in 0.024878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_small2.png
-  artifactKey: Guid(cefc9448381c926419af0f22059a7aa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Meteors/meteorGrey_small2.png using Guid(cefc9448381c926419af0f22059a7aa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cff642606072fec22a7f52c928528105') in 0.037575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyBlack4.png
-  artifactKey: Guid(d171cb809bfcdd9418e3267c6544c81f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Enemies/enemyBlack4.png using Guid(d171cb809bfcdd9418e3267c6544c81f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7c790d518b6a240e2283b79573ebc8d1') in 0.033946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen02.png
-  artifactKey: Guid(62a9d4db9dc4d5b448f3cb8259d3229f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen02.png using Guid(62a9d4db9dc4d5b448f3cb8259d3229f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4a89f7b3f267a43ce487d267bb61b73c') in 0.034340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Asset Packs/spaceshooter/Backgrounds/purple.png
-  artifactKey: Guid(c2a1b8124c883384d84f30961dda7771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/Backgrounds/purple.png using Guid(c2a1b8124c883384d84f30961dda7771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '83c4a025b786df50fe23d0fd76383066') in 0.033936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Asset Packs/spaceshooter/Bonus/sfx_zap.ogg
-  artifactKey: Guid(71136a48b688e5841825aac7aee729ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/Bonus/sfx_zap.ogg using Guid(71136a48b688e5841825aac7aee729ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'be3a03d0be26680048798cbc3878324a') in 0.043433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/gun09.png
-  artifactKey: Guid(b1b1cd436de5c73468e1c4a32bd33ebc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/gun09.png using Guid(b1b1cd436de5c73468e1c4a32bd33ebc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '621c57d72d6686b7ee678c90d4c7e805') in 0.036062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingYellow_6.png
-  artifactKey: Guid(7da0bdedcb822f94aaf55951878e7729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingYellow_6.png using Guid(7da0bdedcb822f94aaf55951878e7729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e8e9e6e521dd80c0a7cc05578ebfa99a') in 0.030445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingRed_2.png
-  artifactKey: Guid(5a627cd1eed7518408feef592b7f358d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingRed_2.png using Guid(5a627cd1eed7518408feef592b7f358d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dd1b181eae1d1f93e7ed5386067a427e') in 0.031282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingRed_1.png
-  artifactKey: Guid(5d2822ca0f3191543b1643717f01f06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingRed_1.png using Guid(5d2822ca0f3191543b1643717f01f06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2c87565cb468f535cb720cb3a0ca74c3') in 0.031347 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingGreen_4.png
-  artifactKey: Guid(97e86f382a559644bbecaeff0ef01226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingGreen_4.png using Guid(97e86f382a559644bbecaeff0ef01226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'eea2086846df0227e66f78d8a15afbea') in 0.031372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingYellow_1.png
-  artifactKey: Guid(9a82fdbc770ecbe4e973a587c9b441e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingYellow_1.png using Guid(9a82fdbc770ecbe4e973a587c9b441e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3d59c4f1eb9a5fe4120c4c9781f96ac4') in 0.034460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingGreen_1.png
-  artifactKey: Guid(fa3c8f5693f47d7408eb991a2315d004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingGreen_1.png using Guid(fa3c8f5693f47d7408eb991a2315d004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b4235d86fa5137eff581b54fd2d08175') in 0.031383 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingGreen_2.png
-  artifactKey: Guid(4d1d6f52fd9231c4493718e54bf854ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingGreen_2.png using Guid(4d1d6f52fd9231c4493718e54bf854ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '000e3977c3b819bc319864782ddfe64b') in 0.033004 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingYellow_2.png
-  artifactKey: Guid(a481c735b4b23a64394a623e23961d03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingYellow_2.png using Guid(a481c735b4b23a64394a623e23961d03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7f7de17669b29efae34573c18ca9d388') in 0.033801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingRed_7.png
-  artifactKey: Guid(3aecbb9bf321cf14487ff4ff9e475f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingRed_7.png using Guid(3aecbb9bf321cf14487ff4ff9e475f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '28d127aca720c4ea75925cb30e0c60c6') in 0.030837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingGreen_7.png
-  artifactKey: Guid(cd788ac07f66051499b6cd4bd3bc1f93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingGreen_7.png using Guid(cd788ac07f66051499b6cd4bd3bc1f93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '48ce2d5d864c26d8c71c2d873d9cb112') in 0.041361 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire04.png
-  artifactKey: Guid(86a275fade801c542944df0297886069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire04.png using Guid(86a275fade801c542944df0297886069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b5fc36b8eb6c97d48cd2bbfd0fc84e8b') in 0.039231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingRed_5.png
-  artifactKey: Guid(d8bbf6eede3aaa84a908aafdb96ae0dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingRed_5.png using Guid(d8bbf6eede3aaa84a908aafdb96ae0dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '1865a8af31d5a907dfac9b4eb6a24c04') in 0.037098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitRed_7.png
-  artifactKey: Guid(83886f9502b835444bcf4684ba7b3718) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitRed_7.png using Guid(83886f9502b835444bcf4684ba7b3718) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e86f679fc9dd21a28e55ed5a8fe87c57') in 0.041986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitYellow_3.png
-  artifactKey: Guid(24960f385dae85d4990a95ca2dd1a0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitYellow_3.png using Guid(24960f385dae85d4990a95ca2dd1a0b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6bcdeaddfae81a40ee9c9dce02b5bedf') in 0.035495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitRed_5.png
-  artifactKey: Guid(701168857ba64474abbd660b85bda969) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitRed_5.png using Guid(701168857ba64474abbd660b85bda969) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7dac3bab65d4629c1dd90f892bd98cf0') in 0.038402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Power-ups/powerupGreen_star.png
-  artifactKey: Guid(5a00b7e031f63864f9616ec062869729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Power-ups/powerupGreen_star.png using Guid(5a00b7e031f63864f9616ec062869729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '62950d1c54ce98f995c36ba01728b0c2') in 0.042835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Power-ups/things_bronze.png
-  artifactKey: Guid(de4e4395c5b5a554da677865b9aab7e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Power-ups/things_bronze.png using Guid(de4e4395c5b5a554da677865b9aab7e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '630466f7fd046064acb9b888e48c272b') in 0.037728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Power-ups/star_bronze.png
-  artifactKey: Guid(433edac899670b945a4c11f68ba7e4b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Power-ups/star_bronze.png using Guid(433edac899670b945a4c11f68ba7e4b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4fd75d81f43c4989b0fddd19e6a605c2') in 0.037449 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Power-ups/powerupBlue_bolt.png
-  artifactKey: Guid(57b963a897da6f94587a777809d2f8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Power-ups/powerupBlue_bolt.png using Guid(57b963a897da6f94587a777809d2f8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '07b1b13303cb34496b1980c208d50938') in 0.037822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/UI/cursor.png
-  artifactKey: Guid(6ff2e0fe8a98bc44d94ca8bb8e545d20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/UI/cursor.png using Guid(6ff2e0fe8a98bc44d94ca8bb8e545d20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2042e038fd898c002cd1e1812308bacb') in 0.035946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Power-ups/pill_red.png
-  artifactKey: Guid(e1eb03a03bf51b8459edb7ab6d8fef91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Power-ups/pill_red.png using Guid(e1eb03a03bf51b8459edb7ab6d8fef91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3da0fb6ba2ab4893856b164a738b6847') in 0.038833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingYellow_5.png
-  artifactKey: Guid(c95f4c5fb935f4c43b355248b289e4cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingYellow_5.png using Guid(c95f4c5fb935f4c43b355248b289e4cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ae3155a0b9f9b51625b7e540703ff3c1') in 0.039675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/UI/buttonYellow.png
-  artifactKey: Guid(3320957cdd2c9c845af10619b4c720f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/UI/buttonYellow.png using Guid(3320957cdd2c9c845af10619b4c720f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4bfd491a6624c7f9b332f6c32a29d64f') in 0.037343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Power-ups/pill_blue.png
-  artifactKey: Guid(95e8b134fe429624088d23663776d1dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Power-ups/pill_blue.png using Guid(95e8b134fe429624088d23663776d1dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd681ad5523dc566a336b7a440be80bfc') in 0.039745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitGreen_5.png
-  artifactKey: Guid(9ff9e269d0384624abaf22e2b818bf2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitGreen_5.png using Guid(9ff9e269d0384624abaf22e2b818bf2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f0b3fdf3fe54a14a80d5a783fdcb2f65') in 0.036181 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Power-ups/powerupYellow_star.png
-  artifactKey: Guid(19d79497d9f2c1e48b0c2e36cc3416c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Power-ups/powerupYellow_star.png using Guid(19d79497d9f2c1e48b0c2e36cc3416c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9ec6bf93d245fce923b9986b8bdd3ec2') in 0.038432 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/wingBlue_7.png
-  artifactKey: Guid(e8073f587757d6a45aca750c86a5b0d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/wingBlue_7.png using Guid(e8073f587757d6a45aca750c86a5b0d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0c18b3f90cf2367b8448370ec04d5595') in 0.041218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitBlue_4.png
-  artifactKey: Guid(5e5417f955235d44994f6c77504849cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitBlue_4.png using Guid(5e5417f955235d44994f6c77504849cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '264452b8ed0d9881bd040bf136dacdff') in 0.040756 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/UI/playerLife3_blue.png
-  artifactKey: Guid(208f520d1acfdd54b900c42f201e9e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/UI/playerLife3_blue.png using Guid(208f520d1acfdd54b900c42f201e9e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ca77f6e46c236926ce367dcd90c15c82') in 0.037394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/UI/playerLife1_blue.png
-  artifactKey: Guid(521f4d9422743ac4bb9210ab86f7bf45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/UI/playerLife1_blue.png using Guid(521f4d9422743ac4bb9210ab86f7bf45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3558fa3ff474eaabb77ee3fb94b33877') in 0.040373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/UI/playerLife3_orange.png
-  artifactKey: Guid(5488bddaf39a4e340ace475086f60f3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/UI/playerLife3_orange.png using Guid(5488bddaf39a4e340ace475086f60f3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04fe17b87014faa771e9d85b2abcca7e') in 0.035666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/UI/numeral3.png
-  artifactKey: Guid(3c8223c72e2da22419ee5b6a083a714b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/UI/numeral3.png using Guid(3c8223c72e2da22419ee5b6a083a714b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7779ce7ff90bfb6888ec79d0a408550a') in 0.039887 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Asset Packs/spaceshooter/Bonus/kenvector_future_thin.ttf
-  artifactKey: Guid(573b09596b7e6bd4b82883c9218ad8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/Bonus/kenvector_future_thin.ttf using Guid(573b09596b7e6bd4b82883c9218ad8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f835a48318a7967dd5bd6d7b513e065f') in 0.023982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Asset Packs/spaceshooter/Backgrounds/darkPurple.png
-  artifactKey: Guid(ae788a014355f89408e34b274458e85d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/Backgrounds/darkPurple.png using Guid(ae788a014355f89408e34b274458e85d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0589854256aadeca7f8211e23872338a') in 0.043106 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/UI/numeral4.png
-  artifactKey: Guid(8b3f3ef1836ae044c9ed4bd0d9d1fa0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/UI/numeral4.png using Guid(8b3f3ef1836ae044c9ed4bd0d9d1fa0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4316ab1f3c32bf3c5b58b4bc3113dc9b') in 0.041190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Power-ups/star_gold.png
-  artifactKey: Guid(dac96c8683ce8c24db8f88ee9cad2435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Power-ups/star_gold.png using Guid(dac96c8683ce8c24db8f88ee9cad2435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b612f75f6449a3339b3e63957309000a') in 0.039008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitBlue_1.png
-  artifactKey: Guid(2eeaf25ba44a910489eab715f8b22b60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/cockpitBlue_1.png using Guid(2eeaf25ba44a910489eab715f8b22b60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7b20907cdf6df738372d5e70842632e7') in 0.039057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire14.png
-  artifactKey: Guid(87d801dff838a094a89a0695921a1270) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire14.png using Guid(87d801dff838a094a89a0695921a1270) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'cbe33a0cb8570d4d1b43b2b217af4d7c') in 0.038532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/playerShip1_blue.png
-  artifactKey: Guid(01f4176860eaf3c47a23d78ba38206f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/playerShip1_blue.png using Guid(01f4176860eaf3c47a23d78ba38206f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '52debffd1d4b990b8405251508efb1a4') in 0.034204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/UI/buttonGreen.png
-  artifactKey: Guid(411767993553484499ae26829aab3a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/UI/buttonGreen.png using Guid(411767993553484499ae26829aab3a1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a54f1b961a3284f3e6a77bcc7e562c29') in 0.035833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Parts/engine1.png
-  artifactKey: Guid(5847aedd05c0e584bb48a7a4901670fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Parts/engine1.png using Guid(5847aedd05c0e584bb48a7a4901670fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ec739db86b7fb523dc17489f0a647de4') in 0.034680 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen12.png
-  artifactKey: Guid(5a42e4fdeb41ea74b9ea7c45361e0316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserGreen12.png using Guid(5a42e4fdeb41ea74b9ea7c45361e0316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '53ce658390f2e0e1fa5c2f389fe533d4') in 0.033273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Power-ups/powerupBlue.png
-  artifactKey: Guid(61b22b7865ddf5243a45c16da616d6e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Power-ups/powerupBlue.png using Guid(61b22b7865ddf5243a45c16da616d6e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ba5fbad9b7d0cd768486d9b4ca804ad7') in 0.040692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Asset Packs/spaceshooter/PNG/Lasers/laserBlue02.png
-  artifactKey: Guid(6c9cb2b2c750cc0498d0414c035e9ef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Asset Packs/spaceshooter/PNG/Lasers/laserBlue02.png using Guid(6c9cb2b2c750cc0498d0414c035e9ef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '29c8c61fc654980b757cbce796a39db4') in 0.035155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  artifactKey: Guid(77ed2971719fabb4f888fb5db9e0ca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 0.prefab using Guid(77ed2971719fabb4f888fb5db9e0ca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa0fe742b812d55c8282bb8489e0e5a') in 0.019516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.501 seconds
+Refreshing native plugins compatible for Editor in 7.42 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.135 seconds
+Domain Reload Profiling: 1633ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1135ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (497ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (36.3 KB). Loaded Objects now: 5048.
+Memory consumption went from 165.4 MB to 165.3 MB.
+Total: 3.153400 ms (FindLiveObjects: 0.261200 ms CreateObjectMapping: 0.135000 ms MarkObjects: 2.694400 ms  DeleteObjects: 0.062000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 490.456103 seconds.
+  path: Assets/Waves and Paths/Wave 0.asset
+  artifactKey: Guid(82c2111ae86da164ea42d8577a03c2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves and Paths/Wave 0.asset using Guid(82c2111ae86da164ea42d8577a03c2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4edabb182a44f51c14759a0a2de0a74') in 0.011284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 26.605766 seconds.
+  path: Assets/Prefabs/Enemy 0.prefab
+  artifactKey: Guid(77ed2971719fabb4f888fb5db9e0ca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 0.prefab using Guid(77ed2971719fabb4f888fb5db9e0ca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7893236cb145afa423957cb13aa20f38') in 0.041517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 11.356753 seconds.
+  path: Assets/Prefabs/Enemy 0.prefab
+  artifactKey: Guid(77ed2971719fabb4f888fb5db9e0ca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 0.prefab using Guid(77ed2971719fabb4f888fb5db9e0ca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ddb60f1bb55c28eb56c27e11636995') in 0.008331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.400 seconds
+Refreshing native plugins compatible for Editor in 3.77 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.894 seconds
+Domain Reload Profiling: 1292ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (894ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (479ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (36.2 KB). Loaded Objects now: 5052.
+Memory consumption went from 167.3 MB to 167.3 MB.
+Total: 3.434300 ms (FindLiveObjects: 0.337100 ms CreateObjectMapping: 0.207300 ms MarkObjects: 2.797500 ms  DeleteObjects: 0.090800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.093152 seconds.
+  path: Assets/Waves and Paths/Path 1.prefab
+  artifactKey: Guid(65a3b6042ca50a04ba5c220e405c0e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves and Paths/Path 1.prefab using Guid(65a3b6042ca50a04ba5c220e405c0e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bf1d0ae1da80c596b777ff2050fd10') in 0.023743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 36.533053 seconds.
+  path: Assets/Waves and Paths/Path 0.prefab
+  artifactKey: Guid(1ecc1606007f38b4ba016906c01605e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves and Paths/Path 0.prefab using Guid(1ecc1606007f38b4ba016906c01605e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa9fe9f1128307f63159be60b171e10') in 0.002089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.440402 seconds.
+  path: Assets/Waves and Paths/Path 0.prefab
+  artifactKey: Guid(1ecc1606007f38b4ba016906c01605e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves and Paths/Path 0.prefab using Guid(1ecc1606007f38b4ba016906c01605e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f5ca05292e946b09391e55c0a06546') in 0.001617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 8.083314 seconds.
+  path: Assets/Waves and Paths/Path 0.prefab
+  artifactKey: Guid(1ecc1606007f38b4ba016906c01605e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves and Paths/Path 0.prefab using Guid(1ecc1606007f38b4ba016906c01605e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5297edacec8655e7b5f44702a4d9d149') in 0.002414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.004401 seconds.
+  path: Assets/Waves and Paths/Path 0.prefab
+  artifactKey: Guid(1ecc1606007f38b4ba016906c01605e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves and Paths/Path 0.prefab using Guid(1ecc1606007f38b4ba016906c01605e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fa5e6ba7360b1005408d0af346d8d2') in 0.002081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 18.066980 seconds.
+  path: Assets/Waves and Paths/Wave 1.asset
+  artifactKey: Guid(77b7960fcb1ed8b45924cc91d78d690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves and Paths/Wave 1.asset using Guid(77b7960fcb1ed8b45924cc91d78d690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174168888356e2b2ec40f7e37496b914') in 0.001587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.274966 seconds.
+  path: Assets/Prefabs/Enemy 0.prefab
+  artifactKey: Guid(77ed2971719fabb4f888fb5db9e0ca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 0.prefab using Guid(77ed2971719fabb4f888fb5db9e0ca8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73294f2414b6e43cdd010ebee79921db') in 0.036421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 88.910780 seconds.
+  path: Assets/Waves and Paths/Wave 1.asset
+  artifactKey: Guid(77b7960fcb1ed8b45924cc91d78d690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waves and Paths/Wave 1.asset using Guid(77b7960fcb1ed8b45924cc91d78d690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2b3c139d015e5d272c0b62a6775513') in 0.002707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
